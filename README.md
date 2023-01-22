@@ -1,0 +1,1 @@
+# Automatic-trash-classification-bins

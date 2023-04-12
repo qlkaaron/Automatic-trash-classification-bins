@@ -3,6 +3,7 @@
 ### Follow us! Here is our social media links.
 Youtube channel:
 https://www.youtube.com/channel/UC5s7DoMgMNC2AQGXQb5fd2A
+
 Hackaday channel:
 https://hackaday.io/project/190551-smart-trash-bins
 

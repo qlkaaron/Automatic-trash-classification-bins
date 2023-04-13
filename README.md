@@ -33,6 +33,8 @@ Connect the SCL pin of PCA9685 to the SCL pin of Raspberry Pi.
 For MG996R:
 The four MG996R servos are respectively connected to the VCC pin, GND pin, and signal pin of the driver board.
 
+![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/main/img/motor.jpg)
+
 ### Project Components
 This project uses the following components:
 1. Raspberry Pi 3B

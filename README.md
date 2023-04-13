@@ -59,10 +59,20 @@ To get started with this project, you will need a Raspberry Pi 3B, Raspberry Pi 
 Once everything is set up, you can start using the trash sorting bin by throwing away different types of garbage and watching as the bin automatically separates and sorts the garbage for you.
 
 ### Conclusion
-This is a project of the Real Time Embedded Programming (2022-23) at the University of Glasgow. Thanks to prof. Bernd Porr and Prof. Nicholas Bailey for the learning materials.The Smart-trash-bins project can have many benefits for protecting the environment, such as:
+This is a project of the Real Time Embedded Programming (2022-23) at the University of Glasgow. The Smart-trash-bins project can have many benefits for protecting the environment, such as:
 1. Reducing landfill waste: By automatically sorting different types of garbage, the project can help reduce the amount of waste that ends up in landfills. For example, organic waste can be composted, while plastics and other materials can be recycled.
 2. Promoting recycling: The project can help promote recycling by making it easier for people to properly dispose of their recyclable materials. By providing a convenient and efficient way to sort and dispose of recyclable materials, the project can encourage more people to recycle.
 3. Improving waste management: The project can help improve waste management by reducing the amount of waste that needs to be sorted manually by waste management workers. This can help save time and resources, and make waste management more efficient.
 4. Raising awareness: By showcasing the benefits of proper waste management and recycling, the project can help raise awareness about the importance of protecting the environment. This can help encourage more people to adopt eco-friendly habits and reduce their impact on the environment.
 
-Finally, we sincerely hope that our project can help the cause of environmental protection to a higher level
+Finally, we sincerely hope that our project can help the cause of environmental protection to a higher level.
+
+### Contributors and authors
+Image Processing, Qt development: **Hongyu Chen, Likun Qian**
+
+Hardware construction: **Yitao Zhang, Yuwen Yao**
+
+Thanks to prof. Bernd Porr and Prof. Nicholas Bailey for the learning materials.
+
+### Copyright statement
+The project is signed under the MIT License, see LICENSE.md for details.

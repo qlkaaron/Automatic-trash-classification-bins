@@ -16,7 +16,17 @@ The Raspberry Pi camera is mounted above the trash bin and connected to the Rasp
 
 The image recognition algorithm uses machine learning to classify different types of garbage, such as plastics, paper, glass, and organic waste. The algorithm has been trained on a large dataset of images to accurately identify different types of garbage.
 #### Implementation of servos
-xxxxxxxxx
+How to connect:
+For PCA9685:
+PCA9685 can drive 16 servos at the same time. In addition to connecting to the Raspberry Pi, it needs to be powered externally with 5V to drive the servos.
+
+Connect the VCC pin of the PCA9685 to the 3.3V pin of the Raspberry Pi.
+Connect the GND pin of the PCA9685 to the GND pin of the Raspberry Pi.
+Connect the SDA pin of the PCA9685 to the SDA pin of the Raspberry Pi.
+Connect the SCL pin of PCA9685 to the SCL pin of Raspberry Pi.
+
+For MG996R:
+The four MG996R servos are respectively connected to the VCC pin, GND pin, and signal pin of the driver board.
 
 ### Project Components
 This project uses the following components:

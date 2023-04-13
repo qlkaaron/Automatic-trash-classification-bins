@@ -23,6 +23,7 @@ Connect the VCC pin of the PCA9685 to the 3.3V pin of the Raspberry Pi.
 Connect the GND pin of the PCA9685 to the GND pin of the Raspberry Pi.
 Connect the SDA pin of the PCA9685 to the SDA pin of the Raspberry Pi.
 Connect the SCL pin of PCA9685 to the SCL pin of Raspberry Pi.
+
 ![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/main/img/driverboard.jpg)
 
 For MG996R:

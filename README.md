@@ -9,7 +9,7 @@ https://hackaday.io/project/190551-smart-trash-bins
 
 ### Project introduction
 This project uses a Raspberry Pi 3B, Raspberry Pi camera, and four servos to create a trash sorting bin that can automatically separate different types of garbage. The principle of the project is to use the camera to identify the type of garbage being thrown away, and then use the servos to open the corresponding bin for proper disposal.
-
+![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/main/img/draftdrawing.jpg)
 ### How it Works
 #### Implement of garbage recognition and classification algorithm model construction
 The Raspberry Pi camera is mounted above the trash bin and connected to the Raspberry Pi 3B. The Raspberry Pi runs an image recognition algorithm to identify the type of garbage being thrown away. The four servos are connected to the Raspberry Pi and are used to open the corresponding bin for disposal.

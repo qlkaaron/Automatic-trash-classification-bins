@@ -117,8 +117,8 @@ Responsible for the design and implementation of the mechanical hardware compone
 4. Test and debug electronic hardware to ensure proper function.
 
 ## Documentation📚
-Initial presentation of the project: https://github.com/qlkaaron/Smart-Trash-Bin/blob/master/team21.pptx
-Requirements document: https://docs.google.com/document/d/1v_nFBcVMhV61sFpqelyqPs9qTDsMhMfhK4uxnItb3NU/edit?usp=sharing
+1. Initial presentation of the project: https://github.com/qlkaaron/Smart-Trash-Bin/blob/master/team21.pptx
+2. Requirements document: https://docs.google.com/document/d/1v_nFBcVMhV61sFpqelyqPs9qTDsMhMfhK4uxnItb3NU/edit?usp=sharing
 
 ## Copyright©
 The project is signed under the MIT License, see [LICENSE.md](https://github.com/qlkaaron/Smart-Trash-Bin/blob/master/LICENSE) for details.

@@ -25,7 +25,7 @@ This project uses the following components:
 2. Raspberry Pi HD camera
 3. Four servos
 4. Four trash bins
-5. Loptop with GPU
+5. Laptop with GPU
 
 The Raspberry Pi 3B is used to run the image recognition algorithm and control the servos. The Raspberry Pi camera is used to capture images of the garbage being thrown away. The four servos are used to open the corresponding bin for disposal. The four trash bins are labeled and the servo uses a simple device to open and close the lid of the trash can.
 

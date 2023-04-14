@@ -75,7 +75,7 @@ Finally, we sincerely hope that our project can help the cause of environmental 
 | Likun Qian  | 2741162Q | Image Recognition Engineer |
 | Hongyu Chen  | 2778437C | Software Engineer |
 | Yitao Zhang  | 2728975Z | Electronics Engineer |
-| Yuwen Yao  | 2729768Y | Electronics Engineer |
+| Yuwen Yao  | 2729768Y | Mechanical Engineers |
 
 ### Likun Qian👷‍♂️
 Responsible for developing and training object detection algorithms using YOLOv5 algorithm and OpenCV library.
@@ -105,7 +105,7 @@ Responsible for the design and implementation of the electronic hardware compone
 
 
 ### Yuwen Yao👨‍💻
-Responsible for the design and implementation of the electronic hardware components for the waste sorting bins.
+Responsible for the design and implementation of the mechanical hardware components for the waste sorting bins.
 
 1. Responsible for connecting to the Qt system to realize the monitoring of garbage classification results on the computer.
 2. Design and test power management systems to ensure proper functioning of all electronic components and optimize power usage.

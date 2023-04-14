@@ -113,6 +113,9 @@ Responsible for the design and implementation of the mechanical hardware compone
 3. Work with software engineers and image recognition engineers to integrate electronic hardware with software systems and object detection algorithms.
 4. Test and debug electronic hardware to ensure proper function.
 
-
 ## Copyright©
 The project is signed under the MIT License, see LICENSE.md for details.
+
+## Contact us📧
+smarttrashbin_uog@gmail.com
+

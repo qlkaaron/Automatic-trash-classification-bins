@@ -79,7 +79,7 @@ The four MG996R servos are respectively connected to the VCC pin, GND pin, and s
 
 ## Getting Started（这边写一下如何如果是别人想用我们的项目，如何从0到1）
 To get started with this project, you will need a Raspberry Pi 3B, Raspberry Pi camera, four servos, and four trash bins. You will also need to install the image recognition algorithm on the Raspberry Pi and connect the servos to the Raspberry Pi.
-
+Then you need to install Open-cv, Ncnn, Google Test and QT in your system.
 Once everything is set up, you can start using the trash sorting bin by throwing away different types of garbage and watching as the bin automatically separates and sorts the garbage for you.
 ```commandline
 git clone https://github.com/qlkaaron/Smart-Trash-Bin

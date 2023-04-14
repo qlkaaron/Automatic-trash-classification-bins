@@ -31,7 +31,7 @@ The environment and software required for this project:
 4. YOLOv5
 5. Opencv 4.7.0
 
-## How it Works
+## How it Works**（kunkun把图像训练的思路再讲一下）**
 #### Implement of garbage recognition and classification algorithm model construction
 The Raspberry Pi camera is mounted above the trash bin and connected to the Raspberry Pi 3B. The Raspberry Pi runs an image recognition algorithm to identify the type of garbage being thrown away. The four servos are connected to the Raspberry Pi and are used to open the corresponding bin for disposal.
 

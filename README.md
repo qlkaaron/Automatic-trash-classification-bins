@@ -70,7 +70,7 @@ This is a project of the Real Time Embedded Programming (2022-23) at the Univers
 
 Finally, we sincerely hope that our project can help the cause of environmental protection to a higher level.
 
-## Contributors and authors
+## We A Team #21 👨‍👩‍👧‍👦
 |  Name   | GUID  | Project roles |
 |  ----  | ----  | ---- |
 | Likun Qian  | 2741162Q | Image Recognition Engineer |

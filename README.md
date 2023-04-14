@@ -81,6 +81,9 @@ The four MG996R servos are respectively connected to the VCC pin, GND pin, and s
 To get started with this project, you will need a Raspberry Pi 3B, Raspberry Pi camera, four servos, and four trash bins. You will also need to install the image recognition algorithm on the Raspberry Pi and connect the servos to the Raspberry Pi.
 
 Once everything is set up, you can start using the trash sorting bin by throwing away different types of garbage and watching as the bin automatically separates and sorts the garbage for you.
+```commandline
+git clone https://github.com/qlkaaron/Smart-Trash-Bin
+```
 
 ## Conclusion
 This is a project of the Real Time Embedded Programming (2022-23) at the University of Glasgow. The Smart-trash-bins project can have many benefits for protecting the environment, such as:

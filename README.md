@@ -12,6 +12,25 @@ Waste classification is an important practice in waste management that involves 
 
 Based on the above knowledge, our team hopes to make a device that uses camera recognition for garbage classification. This project uses a Raspberry Pi 3B, Raspberry Pi camera, and four servos to create a trash sorting bin that can automatically separate different types of garbage. The principle of the project is to use the camera to identify the type of garbage being thrown away, and then use the servos to open the corresponding bin for proper disposal.
 ![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/main/img/draftdrawing.jpg)
+
+## Project Components
+This project uses the following components:
+1. Raspberry Pi 3B
+2. Raspberry Pi HD camera
+3. Four servos
+4. Four trash bins
+5. Loptop with GPU
+
+The Raspberry Pi 3B is used to run the image recognition algorithm and control the servos. The Raspberry Pi camera is used to capture images of the garbage being thrown away. The four servos are used to open the corresponding bin for disposal. The four trash bins are labeled and the servo uses a simple device to open and close the lid of the trash can.
+
+## Project Environment
+The environment and software required for this project:
+1. Ubuntu 18.04
+2. Windows 10 for remote desktop and model traning
+3. Qt Creator 4.6.2 (Enterprise)
+4. YOLOv5
+5. Opencv 4.7.0
+
 ## How it Works
 #### Implement of garbage recognition and classification algorithm model construction
 The Raspberry Pi camera is mounted above the trash bin and connected to the Raspberry Pi 3B. The Raspberry Pi runs an image recognition algorithm to identify the type of garbage being thrown away. The four servos are connected to the Raspberry Pi and are used to open the corresponding bin for disposal.
@@ -36,24 +55,6 @@ For MG996R:
 The four MG996R servos are respectively connected to the VCC pin, GND pin, and signal pin of the driver board.
 
 ![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/main/img/motor.jpg)
-
-## Project Components
-This project uses the following components:
-1. Raspberry Pi 3B
-2. Raspberry Pi HD camera
-3. Four servos
-4. Four trash bins
-5. Loptop with GPU
-
-The Raspberry Pi 3B is used to run the image recognition algorithm and control the servos. The Raspberry Pi camera is used to capture images of the garbage being thrown away. The four servos are used to open the corresponding bin for disposal. The four trash bins are labeled and the servo uses a simple device to open and close the lid of the trash can.
-
-## Project Environment
-The environment and software required for this project:
-1. Ubuntu 18.04
-2. Windows 10 for remote desktop and model traning
-3. Qt Creator 4.6.2 (Enterprise)
-4. YOLOv5
-5. Opencv 4.7.0
 
 ## Getting Started
 To get started with this project, you will need a Raspberry Pi 3B, Raspberry Pi camera, four servos, and four trash bins. You will also need to install the image recognition algorithm on the Raspberry Pi and connect the servos to the Raspberry Pi.

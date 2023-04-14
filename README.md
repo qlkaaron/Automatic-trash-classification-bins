@@ -49,6 +49,12 @@ PCA9685 can drive 16 servos at the same time. In addition to connecting to the R
 
 PCA9685 can generate 16 PWM waveforms with the same frequency through I2C communication.
 
+The angle of the servo is controlled by the pulse width.For example, we want to set the rotation to 90 degrees.
+
+The bandwidth can be derived by equation: B = 0.5+(90/180)*(2.5-0.5)ms = 1.5ms
+
+Use function void set_pwm_ms(const int channel, const double ms) to enable the channel and control the angle.
+
 #### How to connect:
 For PCA9685:
 

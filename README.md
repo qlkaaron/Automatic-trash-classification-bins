@@ -78,7 +78,7 @@ Finally, we sincerely hope that our project can help the cause of environmental 
 | Yitao Zhang  | 2728975Z | Electronics Engineer |
 | Yuwen Yao  | 2729768Y | Mechanical Engineers |
 
-### Likun Qian👷‍♂️
+### [Likun Qian](2741162q@student.gla.ac.uk)👷‍♂️
 Responsible for developing and training object detection algorithms using YOLOv5 algorithm and OpenCV library.
 
 1. Collect and organize relatively complete garbage image datasets on the Internet.
@@ -87,7 +87,7 @@ Responsible for developing and training object detection algorithms using YOLOv5
 4. Integrate object detection algorithms with the rest of the system.
 5. Deploy the trained model to the Raspberry Pi system.
 
-### Hongyu Chen👷
+### [Hongyu Chen](2778437c@student.gla.ac.uk)👷
 Responsible for the development of software architecture for garbage classification and Qt-based graphical user interface.
 
 1. Design and implement the software architecture of the system.
@@ -96,7 +96,7 @@ Responsible for the development of software architecture for garbage classificat
 4. Integrate object detection algorithms with software systems.
 5. Test and debug software to ensure proper functionality.
 
-### Yitao Zhang👨‍🔧
+### [Yitao Zhang](2728975z@student.gla.ac.uk)👨‍🔧
 Responsible for the design and implementation of the electronic hardware components for the waste sorting bins.
 
 1. Select and source the appropriate electronic components for the project.
@@ -105,7 +105,7 @@ Responsible for the design and implementation of the electronic hardware compone
 4. Integrate electronic hardware with software systems.
 
 
-### Yuwen Yao👨‍💻
+### [Yuwen Yao](2729768y@student.gla.ac.uk)👨‍💻
 Responsible for the design and implementation of the mechanical hardware components for the waste sorting bins.
 
 1. Responsible for connecting to the Qt system to realize the monitoring of garbage classification results on the computer.
@@ -114,7 +114,7 @@ Responsible for the design and implementation of the mechanical hardware compone
 4. Test and debug electronic hardware to ensure proper function.
 
 ## Copyright©
-The project is signed under the MIT License, see LICENSE.md for details.
+The project is signed under the MIT License, see [LICENSE.md](https://github.com/qlkaaron/Smart-Trash-Bin/blob/master/LICENSE) for details.
 
 ## Contact us📧
 smarttrashbin_uog@gmail.com

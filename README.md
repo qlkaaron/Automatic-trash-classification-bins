@@ -113,5 +113,5 @@ Responsible for the design and implementation of the mechanical hardware compone
 4. Test and debug electronic hardware to ensure proper function.
 
 
-## Copyright statement
+## Copyright©
 The project is signed under the MIT License, see LICENSE.md for details.

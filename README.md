@@ -4,7 +4,10 @@
 🔗Youtube channel:
 https://www.youtube.com/channel/UC5s7DoMgMNC2AQGXQb5fd2A
 
-🔗Hackaday channel:
+📺Blibili channel:
+https://space.bilibili.com/5957132/dynamic
+
+👽Hackaday channel:
 https://hackaday.io/project/190551-smart-trash-bins
 
 ## Project introduction and background

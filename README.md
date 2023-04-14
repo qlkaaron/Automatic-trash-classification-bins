@@ -46,6 +46,7 @@ The image recognition algorithm uses machine learning to classify different type
 PCA9685 can drive 16 servos at the same time. In addition to connecting to the Raspberry Pi, it needs to be powered externally with 5V to drive the servos.
 #### How to connect:
 For PCA9685:
+
 Connect the VCC pin of the PCA9685 to the 3.3V pin of the Raspberry Pi.
 
 Connect the GND pin of the PCA9685 to the GND pin of the Raspberry Pi.

@@ -83,6 +83,9 @@ To get started with this project, you will need a Raspberry Pi 3B, Raspberry Pi 
 Once everything is set up, you can start using the trash sorting bin by throwing away different types of garbage and watching as the bin automatically separates and sorts the garbage for you.
 ```commandline
 git clone https://github.com/qlkaaron/Smart-Trash-Bin
+cd Smart-Trash-Bin
+cmake ..
+make
 ```
 
 ## Conclusion

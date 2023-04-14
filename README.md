@@ -123,5 +123,5 @@ Responsible for the design and implementation of the mechanical hardware compone
 ## Copyright©
 The project is signed under the MIT License, see [LICENSE.md](https://github.com/qlkaaron/Smart-Trash-Bin/blob/master/LICENSE) for details.
 
-## Contact us📧
+## Welcome to contact us!📧
 smarttrashbin_uog@gmail.com

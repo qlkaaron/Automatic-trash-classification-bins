@@ -58,8 +58,8 @@ Use function void set_pwm_ms(const int channel, const double ms) to enable the c
 #### How to connect:
 For PCA9685:
 
-![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/master/img/pindesc.jpeg)
-![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/master/img/pindesc2.jpeg)
+![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/main/img/pindesc.jpeg)
+![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/main/img/pindesc2.jpeg)
 
 Connect the VCC pin of the PCA9685 to the 3.3V pin of the Raspberry Pi.
 

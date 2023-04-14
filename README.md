@@ -11,7 +11,7 @@ https://space.bilibili.com/5957132
 https://hackaday.io/project/190551-smart-trash-bins
 
 ## Take a look at our demo first！🧩
-这里放一个demo的视频/gif
+这里放一个demo的视频/gif...
 
 ## Project introduction and background
 Waste classification is an important practice in waste management that involves sorting different types of waste materials based on their composition and properties. The practice of waste classification has gained significance due to the increasing concerns about environmental pollution and sustainability.
@@ -62,7 +62,7 @@ The four MG996R servos are respectively connected to the VCC pin, GND pin, and s
 
 ![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/main/img/motor.jpg)
 
-## Getting Started
+## Getting Started（这边写一下如何如果是别人想用我们的项目，如何从0到1）
 To get started with this project, you will need a Raspberry Pi 3B, Raspberry Pi camera, four servos, and four trash bins. You will also need to install the image recognition algorithm on the Raspberry Pi and connect the servos to the Raspberry Pi.
 
 Once everything is set up, you can start using the trash sorting bin by throwing away different types of garbage and watching as the bin automatically separates and sorts the garbage for you.

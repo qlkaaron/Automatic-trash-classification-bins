@@ -115,7 +115,7 @@ Responsible for the design and implementation of the electronic hardware compone
 4. Integrate electronic hardware with software systems.
 
 
-### [Yuwen Yao](https://github.com/)👨‍💻
+### [Yuwen Yao](https://github.com/Yuwenyao)👨‍💻
 Responsible for the design and implementation of the mechanical hardware components for the waste sorting bins.
 
 1. Responsible for connecting to the Qt system to realize the monitoring of garbage classification results on the computer.

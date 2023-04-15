@@ -10,8 +10,7 @@ https://space.bilibili.com/5957132
 👽Hackaday channel:
 https://hackaday.io/project/190551-smart-trash-bins
 
-## Take a look at our demo first！🧩
-这里放一个demo的视频/gif...
+
 
 ## Project introduction and background
 Waste classification is an important practice in waste management that involves sorting different types of waste materials based on their composition and properties. The practice of waste classification has gained significance due to the increasing concerns about environmental pollution and sustainability.

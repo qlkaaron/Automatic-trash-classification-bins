@@ -14,7 +14,7 @@ SmartTrashBin::SmartTrashBin(QWidget *parent)
     , ui(new Ui::SmartTrashBin)
 {
     ui->setupUi(this);
-    //不是QT的类型要注册信号
+
     qRegisterMetaType<cv::Mat>("cv::Mat");
 
     detectBtn = new QPushButton("detect", this);
@@ -63,14 +63,14 @@ void SmartTrashBin::getImage(const cv::Mat& image)
     QImage qImg(showImg.data, showImg.cols, showImg.rows, static_cast<int>(showImg.step), QImage::Format_RGB888);
     qImg = qImg.rgbSwapped();
     QPixmap imgPixmap = QPixmap::fromImage(qImg);
-    // 图片缩放
+
     imgPixmap = imgPixmap.scaled(displayLabel->width(), displayLabel->height(), Qt::IgnoreAspectRatio, Qt::SmoothTransformation);
     displayLabel->setPixmap(imgPixmap);
 }
 
 void SmartTrashBin::pushButton_clicked()
 {
-    bool success = imwrite("./save_image.jpg", showImg); // 将图像保存到桌面上
+    bool success = imwrite("./save_image.jpg", showImg); 
     if (!success) {
         qDebug("Failed to save image.");
         return ;
@@ -116,7 +116,7 @@ void SmartTrashBin::showResult()
     QImage qImg(resultImg.data, resultImg.cols, resultImg.rows, static_cast<int>(resultImg.step), QImage::Format_RGB888);
     qImg = qImg.rgbSwapped();
     QPixmap imgPixmap = QPixmap::fromImage(qImg);
-    // 图片缩放
+
     imgPixmap = imgPixmap.scaled(resultLabel->width(), resultLabel->height(), Qt::IgnoreAspectRatio, Qt::SmoothTransformation);
     resultLabel->setPixmap(imgPixmap);
 }

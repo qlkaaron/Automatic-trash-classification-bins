@@ -1,5 +1,5 @@
 # 🚮**Smart-Trash-Bins**
-![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/main/img/trashbin.png)
+![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/HistoryFile/img/trashbin.png)
 ## Follow us! Here is our social media links. We will continue to update the latest developments...🚀🔗
 🔗Youtube channel:
 https://www.youtube.com/channel/UC5s7DoMgMNC2AQGXQb5fd2A
@@ -11,15 +11,15 @@ https://space.bilibili.com/5957132
 https://hackaday.io/project/190551-smart-trash-bins
 
 ## Take a look at our demo first！🧩
-![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/main/img/test.gif)
-![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/main/img/IMG_8612.GIF)
+![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/HistoryFile/img/test.gif)
+![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/HistoryFile/img/IMG_8612.GIF)
 The full demo video can be seen in our social media!
 
 ## Project introduction and background
 Waste classification is an important practice in waste management that involves sorting different types of waste materials based on their composition and properties. The practice of waste classification has gained significance due to the increasing concerns about environmental pollution and sustainability.
 
 Based on the above knowledge, our team hopes to make a device that uses camera recognition for garbage classification. This project uses a Raspberry Pi 3B, Raspberry Pi camera, and four servos to create a trash sorting bin that can automatically separate different types of garbage. The principle of the project is to use the camera to identify the type of garbage being thrown away, and then use the servos to open the corresponding bin for proper disposal.
-![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/main/img/draftdrawing.jpg)
+![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/HistoryFile/img/draftdrawing.jpg)
 
 ## Project Components
 This project uses the following components:
@@ -64,8 +64,8 @@ Use function void set_pwm_ms(const int channel, const double ms) to enable the c
 #### How to connect:
 For PCA9685:
 
-![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/main/img/pindesc.jpeg)
-![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/main/img/pindesc2.jpeg)
+![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/HistoryFile/img/pindesc.jpeg)
+![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/HistoryFile/img/pindesc2.jpeg)
 
 Connect the VCC pin of the PCA9685 to the 3.3V pin of the Raspberry Pi.
 
@@ -76,12 +76,12 @@ Connect the SDA pin of the PCA9685 to the SDA pin of the Raspberry Pi.
 Connect the SCL pin of PCA9685 to the SCL pin of Raspberry Pi.
 
 
-![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/main/img/driverboard.jpg)
+![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/HistoryFile/img/driverboard.jpg)
 
 For MG996R:
 The four MG996R servos are respectively connected to the VCC pin, GND pin, and signal pin of the driver board.
 
-![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/main/img/motor.jpg)
+![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/HistoryFile/img/motor.jpg)
 
 ## Getting Started
 To get started with this project, you will need a Raspberry Pi 3B, Raspberry Pi camera, four servos, and four trash bins. You will also need to install the image recognition algorithm on the Raspberry Pi and connect the servos to the Raspberry Pi.

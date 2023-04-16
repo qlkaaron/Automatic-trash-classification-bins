@@ -13,6 +13,7 @@ https://hackaday.io/project/190551-smart-trash-bins
 ## Take a look at our demo first！🧩
 ![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/main/img/test.gif)
 ![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/main/img/IMG_8612.GIF)
+The full demo video can be seen in our social media!
 
 ## Project introduction and background
 Waste classification is an important practice in waste management that involves sorting different types of waste materials based on their composition and properties. The practice of waste classification has gained significance due to the increasing concerns about environmental pollution and sustainability.
@@ -30,19 +31,23 @@ This project uses the following components:
 
 The Raspberry Pi 3B is used to run the image recognition algorithm and control the servos. The Raspberry Pi camera is used to capture images of the garbage being thrown away. The four servos are used to open the corresponding bin for disposal. The four trash bins are labeled and the servo uses a simple device to open and close the lid of the trash can.
 
-## Project Environment
+## Required Environment
 The environment and software required for this project:
-1. Ubuntu 18.04
-2. Windows 10 for remote desktop and model traning
-3. Qt Creator 4.6.2 (Enterprise)
-4. YOLOv5
-5. Opencv 4.7.0
+1. Ncnn
+2. Qt Creator 4.6.2 (Enterprise)
+3. Google Test
+4. Opencv 4.7.0
 
-## How it Works**（kunkun把图像训练的思路再讲一下）**
+## How it Works****
 #### Implement of garbage recognition and classification algorithm model construction
 The Raspberry Pi camera is mounted above the trash bin and connected to the Raspberry Pi 3B. The Raspberry Pi runs an image recognition algorithm to identify the type of garbage being thrown away. The four servos are connected to the Raspberry Pi and are used to open the corresponding bin for disposal.
 
-The image recognition algorithm uses machine learning to classify different types of garbage, such as plastics, paper, glass, and organic waste. The algorithm has been trained on a large dataset of images to accurately identify different types of garbage.
+We uses YOLOv5 and a trash dataset of over 4000 images to train our model.
+Here is our model performance.
+![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/master/img/PR_curve.png)
+![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/master/img/results.png)
+![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/master/img/val_batch0_pred.jpg)
+
 #### Implementation of servos
 PCA9685 can drive 16 servos at the same time. In addition to connecting to the Raspberry Pi, it needs to be powered externally with 5V to drive the servos.
 
@@ -78,15 +83,16 @@ The four MG996R servos are respectively connected to the VCC pin, GND pin, and s
 
 ![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/main/img/motor.jpg)
 
-## Getting Started（这边写一下如何如果是别人想用我们的项目，如何从0到1）
+## Getting Started
 To get started with this project, you will need a Raspberry Pi 3B, Raspberry Pi camera, four servos, and four trash bins. You will also need to install the image recognition algorithm on the Raspberry Pi and connect the servos to the Raspberry Pi.
-Then you need to install Open-cv, Ncnn, Google Test and QT in your system.
+Then you need to install Open-cv, Ncnn and QT in your system. You can find how to install them on their official website or Github.
 Once everything is set up, you can start using the trash sorting bin by throwing away different types of garbage and watching as the bin automatically separates and sorts the garbage for you.
 ```commandline
 git clone https://github.com/qlkaaron/Smart-Trash-Bin
 cd Smart-Trash-Bin
 cmake ..
 make
+.\SmartTrashBin
 ```
 
 ## Conclusion

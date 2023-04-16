@@ -1,3 +1,0 @@
-/home/lgj/github/SmartTrashBin/opencv/build/CMakeFiles/rebuild_cache.dir
-/home/lgj/github/SmartTrashBin/opencv/build/CMakeFiles/edit_cache.dir
-/home/lgj/github/SmartTrashBin/opencv/build/CMakeFiles/capture_image.dir

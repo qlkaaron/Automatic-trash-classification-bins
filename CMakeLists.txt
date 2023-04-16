@@ -14,7 +14,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
-# opencv
+
 #set(ENV{PKG_CONFIG_PATH} /usr/local/lib/pkgconfig)
 #FIND_PACKAGE(PkgConfig REQUIRED)
 #PKG_SEARCH_MODULE(PKG_OPENCV REQUIRED opencv)
@@ -22,12 +22,11 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 find_package(OpenCV REQUIRED )
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-# 分别设置ncnn的链接库和头文件
+
 set(NCNN_LIBS /home/pi/ncnn-master/build/install/lib/libncnn.a)
 set(NCNN_INCLUDE_DIRS /home/pi/ncnn-master/build/install/include/ncnn)
 include_directories(${NCNN_INCLUDE_DIRS})
 
-# 配置OpenMP
 find_package(OpenMP REQUIRED)
 if(OPENMP_FOUND)
     message("OPENMP FOUND")

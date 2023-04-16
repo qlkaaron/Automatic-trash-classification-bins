@@ -1,3 +1,0 @@
-/home/lgj/github/SmartTrashBin/motor/build/CMakeFiles/rebuild_cache.dir
-/home/lgj/github/SmartTrashBin/motor/build/CMakeFiles/edit_cache.dir
-/home/lgj/github/SmartTrashBin/motor/build/CMakeFiles/pca9685.dir

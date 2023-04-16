@@ -17,7 +17,7 @@ protected:
     void run();
 
 private:
-    VideoCapture *cap;     // 相机
+    VideoCapture *cap;     
     Mat frame;
     volatile bool stopped;
     void (*m_callbackFUnc)(const cv::Mat&);

@@ -10,6 +10,9 @@ https://www.bilibili.com/video/BV1Dg4y1T7k5/?spm_id_from=333.999.0.0&vd_source=9
 👽Hackaday channel:
 https://hackaday.io/project/190551-smart-trash-bins
 
+💃Tiktok channel:
+https://vm.tiktok.com/ZMYWkrSJs/
+
 ## Take a look at our demo first！🧩
 ![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/HistoryFile/img/test.gif)
 ![image](https://github.com/qlkaaron/Smart-Trash-Bin/blob/HistoryFile/img/IMG_8612.GIF)
